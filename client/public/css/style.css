@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "jeju";
+    src: url(../fonts/JejuMyeongjo-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "tang";
+    src: url(../fonts/Tangerine-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "tang";
+    src: url(../fonts/Tangerine-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter-ExtraLight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "sanstar";
+    src: url(../fonts/SanstarRegular.ttf);
+    font-weight: 400;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+.container {
+    height: 800px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* скролл */
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background: black;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: white;
+}
